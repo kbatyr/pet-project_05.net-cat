@@ -21,6 +21,8 @@ The project works in a similar way that the original  NetCat works, in other wor
 - If a Client leaves the chat, the rest of the Clients must not disconnect.
 - If there is no port specified, then set as default the port 8989. Otherwise, program must respond with usage message: `[USAGE]: ./TCPChat $port`
 
+### Usage
+
 ```console
 $ go run .
 Listening on the port :8989
