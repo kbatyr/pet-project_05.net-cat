@@ -6,9 +6,7 @@ This project consists on recreating the **NetCat in a Server-Client Architecture
 
 - NetCat, `nc` system command, is a command-line utility that reads and writes data across network connections using TCP or UDP. It is used for anything involving TCP, UDP, or UNIX-domain sockets, it is able to open TCP connections, send UDP packages, listen on arbitrary TCP and UDP ports and many more.
 
-- To see more information about NetCat inspect the manual `man nc`.
-
-Your project must work in a similar way that the original  NetCat works, in other words, you must create a group chat. The project must have the following features :
+The project works in a similar way that the original  NetCat works, in other words, we create a group chat. The project has the following features :
 
 - TCP connection between server and multiple clients (relation of 1 to many).
 - A name requirement to the client.
